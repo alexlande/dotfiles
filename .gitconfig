@@ -1,0 +1,11 @@
+[user]
+	name = Alex Lande
+	email = alexlande@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = auto
+[color "status"]
+	untracked = white
+	changed = cyan
+	added = yellow
