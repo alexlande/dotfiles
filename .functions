@@ -30,7 +30,7 @@ function gz() {
 function dotfiles() {
 	# check if hidden files are visible and store result in a variable
 	isVisible="$(defaults read com.apple.finder AppleShowAllFiles)"
-	 
+
 	# toggle visibility based on variables value
 	if [ "$isVisible" = false ]
 	then
@@ -38,7 +38,7 @@ function dotfiles() {
 	else
 	defaults write com.apple.finder AppleShowAllFiles false
 	fi
-	 
+
 	# force changes by restarting Finder
 	killall Finder
 }

@@ -44,3 +44,5 @@
   email = alexlande@gmail.com
 [credential]
   helper = osxkeychain
+[push]
+	default = simple
