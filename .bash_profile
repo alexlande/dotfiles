@@ -9,8 +9,6 @@ file=~/.private
 if [ -f $file ];
 then
   [ -r "$file" ] && source "$file"
-else
-  echo "NO SUCH THING"
 fi
 unset file
 
