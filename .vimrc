@@ -16,7 +16,6 @@ Plugin 'wavded/vim-stylus'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'othree/html5.vim'
-Plugin 'haul2u/vim-css3-syntax'
 
 " End Plugins
 call vundle#end()
