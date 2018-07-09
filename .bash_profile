@@ -4,13 +4,8 @@ for file in ~/.{bash_prompt,aliases,functions}; do
 done
 unset file
 
-file=~/.private
-
-if [ -f $file ];
-then
-  [ -r "$file" ] && source "$file"
-fi
-unset file
+# Load ~/.private if it exists
+[ -r ~/.private ] && source ~/.private
 
 # init z   https://github.com/rupa/z
 . ~/code/z/z.sh
