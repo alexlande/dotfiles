@@ -13,6 +13,7 @@
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
   autocrlf = input
 	editor = /usr/bin/vim
+	ignorecase = false
 [color "branch"]
   current = yellow reverse
   local = yellow
