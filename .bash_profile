@@ -30,3 +30,10 @@ alias grb="git rb"
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 export PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/alexlande/dotfiles/code/google-cloud-sdk/path.bash.inc' ]; then source '/Users/alexlande/dotfiles/code/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/alexlande/dotfiles/code/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/alexlande/dotfiles/code/google-cloud-sdk/completion.bash.inc'; fi
+export PATH="/usr/local/sbin:$PATH"
