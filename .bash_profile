@@ -4,6 +4,8 @@ for file in ~/.{bash_prompt,aliases,functions}; do
 done
 unset file
 
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Load ~/.private if it exists
 [ -r ~/.private ] && source ~/.private
 
